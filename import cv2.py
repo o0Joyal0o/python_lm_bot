@@ -6,6 +6,8 @@ import mss
 import random
 import threading
 import pytesseract
+import pytesseract; pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Update path if needed
 import schedule
 import json
 from datetime import datetime, timedelta
